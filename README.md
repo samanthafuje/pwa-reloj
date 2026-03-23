@@ -75,22 +75,21 @@ En navegadores compatibles:
 
 ---
 
-## Manifest de la PWA
+El archivo manifest.json incluye la configuración necesaria para permitir la instalación de la PWA en dispositivos móviles. A continuación, se muestran los elementos solicitados:
 
-El archivo `manifest.json` permite que la aplicación sea instalable y define su apariencia y comportamiento.
+Nombre de la aplicación
+Íconos
+Color de fondo
+Color del tema
+Orientación preferida
 
-```json
+Ejemplo de implementación
 {
   "name": "Reloj Digital PWA",
   "short_name": "Reloj",
-  "description": "Aplicación de reloj digital que muestra la hora actual en tiempo real.",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#222222",
   "theme_color": "#000000",
-  "lang": "es-MX",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icons/icono-192.png",
@@ -104,9 +103,20 @@ El archivo `manifest.json` permite que la aplicación sea instalable y define su
     }
   ]
 }
-```
+Descripción de los elementos
+name: Nombre completo de la aplicación que se muestra al instalarla.
 
+short_name: Nombre corto utilizado debajo del ícono.
+
+background_color: Color de fondo al abrir la aplicación.
+
+theme_color: Color de la barra superior del sistema.
+
+orientation: Define la orientación preferida (en este caso, vertical).
+
+icons: Imágenes utilizadas como ícono de la aplicación en el dispositivo.
 ---
+
 
 ## Service Worker
 
