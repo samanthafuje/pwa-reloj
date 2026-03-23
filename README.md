@@ -92,15 +92,15 @@ Ejemplo de implementación
 "orientation": "portrait", 
 "icons": [
 { 
-    "src": "icons/icono-192.png", 
-    "sizes": "192x192", 
-    "type": "image/png" }, 
-{ 
-    "src": "icons/icono-512.png", 
-    "sizes": "512x512", 
-    "type": "image/png" 
-    }
- ] 
+"src": "icons/icono-192.png", 
+"sizes": "192x192", 
+"type": "image/png" }, 
+{
+"src": "icons/icono-512.png", 
+"sizes": "512x512", 
+"type": "image/png" 
+}
+] 
 }
 Descripción de los elementos
 name: Nombre completo de la aplicación que se muestra al instalarla.
