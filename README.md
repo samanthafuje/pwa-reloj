@@ -84,24 +84,23 @@ Color del tema
 Orientación preferida
 
 Ejemplo de implementación
-{
-  "name": "Reloj Digital PWA",
-  "short_name": "Reloj",
-  "background_color": "#222222",
-  "theme_color": "#000000",
-  "orientation": "portrait",
-  "icons": [
-    {
-      "src": "icons/icono-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icono-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+{ 
+"name": "Reloj Digital PWA", 
+"short_name": "Reloj", 
+"background_color": "#222222", 
+"theme_color": "#000000", 
+"orientation": "portrait", 
+"icons": [
+{ 
+    "src": "icons/icono-192.png", 
+    "sizes": "192x192", 
+    "type": "image/png" }, 
+{ 
+    "src": "icons/icono-512.png", 
+    "sizes": "512x512", 
+    "type": "image/png" 
     }
-  ]
+ ] 
 }
 Descripción de los elementos
 name: Nombre completo de la aplicación que se muestra al instalarla.
@@ -113,6 +112,7 @@ background_color: Color de fondo al abrir la aplicación.
 theme_color: Color de la barra superior del sistema.
 
 orientation: Define la orientación preferida (en este caso, vertical).
+
 
 icons: Imágenes utilizadas como ícono de la aplicación en el dispositivo.
 ---
